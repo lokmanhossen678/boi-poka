@@ -17,7 +17,7 @@ const Books = () => {
             <h1 className='text-center text-3xl p-6'>Hellow ami books </h1>
             <Suspense fallback={<span>Lodding ....</span>}>
             {
-                <Book bookPromise={bookPromise}></Book>
+                <Book></Book>
             }
             </Suspense>
         </div>
