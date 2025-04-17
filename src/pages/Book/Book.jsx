@@ -8,6 +8,6 @@ const Book = ({bookPromise}) => {
             <h1>Sigle Book</h1>
         </div>
     );
-};
+}; 
 
 export default Book;
